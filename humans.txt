@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Andrew Krigline -- Designer/Developer -- akrigline.com
+    Skylar Wuebker -- Designer/Developer -- skylarwuebker.com
+    Chris Wallenhorst -- Designer -- chriswallenhorst.com
+    Derek Myers -- Designer -- derekmyers.net
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Bootstrap, HTML5 BoilerPlate
+    jQuery, Modernizr
