@@ -35,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="brand" href="index.html"><img src="img/logo-sm.png" alt="Creative Folk"></a>
+              <a class="brand" href="index.html"><img src="img/logo-sm-orng.png" alt="Creative Folk"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,11 +52,11 @@
 
     </header>
 
-    <section id="about">
+    <section>
 
         <figure class="sectionheader">
             <img src="http://lorempixel.com/1920/800/abstract/1" alt="">
-            <figcaption>
+            <figcaption id="about">
                 <h1>Meet the Team</h1>
             </figcaption>
         </figure>
@@ -221,61 +221,51 @@
         <figure class="sectionheader">
             <img src="">
             <figcaption>
-                <h1>Get in Touch</h1>
+                <h1>Contact</h1>
             </figcaption>
         </figure>
-        <div class="container">
-            <form class="form-horizontal col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3" role="form">
+        <form class="form-horizontal col-xs-12 col-sm-6 col-sm-offset-3" role="form">
+          <div class="form-group">
 
-              <div class="form-group">
+            <label for="emailInput" class="col-xs-12 col-sm-3 control-label">Your Email</label>
 
-                <label for="emailInput" class="col-xs-12 col-sm-3 control-label">Your Email</label>
+            <div class="col-xs-12 col-sm-9">
 
-                <div class="col-xs-12 col-sm-9">
+              <input type="email" class="form-control" id="emailInput" placeholder="We promise not to spam you.">
 
-                  <input type="email" class="form-control" id="emailInput" placeholder="We promise not to spam you.">
+            </div>
+          </div><!-- .form-group -->
 
-                </div>
-              </div><!-- .form-group -->
+          <div class="form-group">
 
-              <div class="form-group">
+            <label for="nameInput" class="col-xs-12 col-sm-3 control-label">Your Name</label>
 
-                <label for="nameInput" class="col-xs-12 col-sm-3 control-label">Your Name</label>
+            <div class="col-xs-12 col-sm-9">
 
-                <div class="col-xs-12 col-sm-9">
+              <input type="text" class="form-control" id="nameInput" placeholder="John Hancock">
 
-                  <input type="text" class="form-control" id="nameInput" placeholder="John Hancock">
+            </div>
+          </div><!-- .form-group -->
 
-                </div>
-              </div><!-- .form-group -->
+          <div class="form-group">
 
-              <div class="form-group">
+            <label class="col-xs-12 col-sm-3 control-label" for="textInput">Message</label>
 
-                <label class="col-xs-12 col-sm-3 control-label">Message</label>
+            <div class="col-xs-12 col-sm-9">
 
-                <div class="col-xs-12 col-sm-9">
+              <textarea class="form-control" rows="3" placeholder="What can we help you with?" id="textInput"></textarea>
+            </div>
+          </div><!-- .form-group -->
 
-                  <textarea class="form-control" rows="3" placeholder="What can we help you with?"></textarea>
-                </div>
-              </div><!-- .form-group -->
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-10">
+              <button type="submit" class="btn btn-default">Send it!</button>
+              <h5><small>Alternatively, you can email us with <a href="mailto:folks@creative-folk.com">folks@creative-folk.com</a>.</small></h5>
+            </div>
 
-              <div class="form-group">
-                <div class="col-sm-offset-3 col-sm-10">
-                  <button type="submit" class="btn btn-default">Send it!</button>
-                  <h5><small>Alternatively, you can email us with <a href="mailto:folks@creative-folk.com">folks@creative-folk.com</a>.</small></h5>
-                </div>
-
-              </div><!-- .form-group -->
-            </form>
-
-        </div><!-- container -->
-    </section><!-- contact -->
-
-    <footer>
-        <div class="container">
-
-        </div><!-- container -->
-    </footer>
+          </div><!-- .form-group -->
+        </form>
+    </section>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
