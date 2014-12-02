@@ -51,7 +51,7 @@ h1, h2, h3, h4{
 h1{
   font-family: 'Roboto', sans-serif;
   font-weight:100;
-  font-size:4em;
+  font-size:3em;
   line-height:.8em;
   text-align:center;
 }
@@ -92,22 +92,57 @@ Navigation
   padding:1em;
 }
 
+.brand{
+  float:left;
+  background:rgba(255,255,255,1);
+  padding:1px;
+  border-radius: 1em 1px 1px
+}
+
 .brand img{
   width:60px;
   margin:0;
 }
 
 .navbar-right{
-  background:rgb(254,151,50);
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight:100;
+  font-size:1.2em;
+  letter-spacing: .04em
+}
+
+.collapse.in .nav li a,
+.collapsing .nav li a{
+  background:#333;
+  color:#fff;
+  border:0;
 }
 
 .nav li a{
   color:#fff;
+  background:rgba(0,0,0,0.2);
+  border:1px solid #fff;
+  margin:0 .4em;
+  padding:.6em 1em;
 }
 
 .nav li a:hover,
 .nav li a:focus{
+  background:#fff;
+  color:#333;
+}
+
+.navbar-toggle{
+  background:rgb(55,55,55);
+}
+
+.navbar-toggle.collapsed{
   background:rgb(244,141,40);
+}
+
+.navbar-toggle .icon-bar{
+  background:#fff;
+  height:3px;
 }
 
 /*------------------------
