@@ -50,7 +50,7 @@
 
     </header>
 
-    <section class="section">
+    <section>
 
         <figure class="sectionheader">
             <img src="http://lorempixel.com/1920/800" alt="">
@@ -89,7 +89,7 @@
         </div><!-- container -->
     </section><!-- about -->
 
-    <section class="section" id="services">
+    <section id="services">
         <figure class="sectionheader">
             <img src="">
             <figcaption>
@@ -157,7 +157,7 @@
         </div><!-- container -->
     </section><!-- services -->
 
-    <section class="section" id="work">
+    <section id="work">
         <figure class="sectionheader">
             <img src="">
             <figcaption>
@@ -215,7 +215,7 @@
         </div><!-- container-fluid -->
     </section><!-- work -->
 
-    <section class="section" id="contact">
+    <section id="contact">
         <figure class="sectionheader">
             <img src="">
             <figcaption>
@@ -273,6 +273,17 @@
     <script src="js/vendor/bootstrap.min.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script type="text/javascript" src="js/vendor/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.localScroll.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function( $ ){
+            $('.top-nav').localScroll({
+                duration:500,
+            });
+        });
+    </script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
