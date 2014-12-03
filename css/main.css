@@ -40,8 +40,11 @@ section{
 
 .headshot {
   margin-top:20px;
-  width:350px;
-  height:350px;
+  width:75%;
+  margin-left:12.5%;
+  margin-right:12.5%;
+  height:0;
+  padding-top:75%;
   background: url(http://lorempixel.com/1920/1100/people/7) fixed;
   background-position:bottom;
   border-radius:50%;	
