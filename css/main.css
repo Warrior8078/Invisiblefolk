@@ -7,6 +7,10 @@ html, body{
   height:100%;
 }
 
+body{
+  position: relative;
+}
+
 section{
   min-height:100%;
   width:100%;
@@ -124,6 +128,11 @@ Navigation
   border:1px solid #fff;
   margin:0 .4em;
   padding:.6em 1em;
+}
+
+.nav li.active a{
+  background:rgb(244,141,40);
+  color:#fff;
 }
 
 .nav li a:hover,

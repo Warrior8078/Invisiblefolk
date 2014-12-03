@@ -17,12 +17,10 @@
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".top-nav">
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-
     <header>
 
         <nav class="navbar top-nav navbar-fixed-top" role="navigation">
@@ -52,10 +50,10 @@
 
     </header>
 
-    <section>
+    <section class="section">
 
         <figure class="sectionheader">
-            <img src="http://lorempixel.com/1920/800/abstract/1" alt="">
+            <img src="http://lorempixel.com/1920/800" alt="">
             <figcaption id="about">
                 <h1>Meet the Team</h1>
             </figcaption>
@@ -91,7 +89,7 @@
         </div><!-- container -->
     </section><!-- about -->
 
-    <section id="services">
+    <section class="section" id="services">
         <figure class="sectionheader">
             <img src="">
             <figcaption>
@@ -159,7 +157,7 @@
         </div><!-- container -->
     </section><!-- services -->
 
-    <section id="work">
+    <section class="section" id="work">
         <figure class="sectionheader">
             <img src="">
             <figcaption>
@@ -217,7 +215,7 @@
         </div><!-- container-fluid -->
     </section><!-- work -->
 
-    <section id="contact">
+    <section class="section" id="contact">
         <figure class="sectionheader">
             <img src="">
             <figcaption>
@@ -254,7 +252,7 @@
 
                 <div class="col-xs-12 col-sm-9">
 
-                  <textarea class="form-control" rows="3" placeholder="What can we help you with?" id="textInput"></textarea>
+                  <textarea class="form-control" rows="5" placeholder="What can we help you with?" id="textInput"></textarea>
                 </div>
               </div><!-- .form-group -->
 
