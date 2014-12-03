@@ -26,6 +26,21 @@ section{
   border-bottom: solid 10px #fff;
 }
 
+
+.mainheader{
+  position: relative;
+  width:100%;
+  height:830px;
+  background: url(http://lorempixel.com/1920/1100) fixed;
+  background-position:center;
+  border-bottom: solid 10px #fff;
+}
+
+
+.icon {
+  margin-left: 50px;
+  margin-top: 50px;
+}
 @media screen and (min-width:768px){
   .sectionheader{
     min-height:14em;
@@ -162,6 +177,7 @@ About us
 #about{
   padding-top:9em;
 }
+
 
 
 /*------------------------
