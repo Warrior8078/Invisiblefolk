@@ -163,7 +163,9 @@ Navigation
   padding:.6em 1em;
 }
 
-.nav li.active a{
+.nav li.active a,
+.collapsing .nav li.active a,
+.collapse.in .nav li.active a{
   background:rgb(244,141,40);
   color:#fff;
 }
