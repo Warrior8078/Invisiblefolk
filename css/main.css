@@ -42,7 +42,8 @@ section{
   width:350px;
   height:350px;
   background: url(http://lorempixel.com/1920/1100/people/7) fixed;
-  background-position:bottom;	
+  background-position:bottom;
+  border-radius:50%;	
 }
 
 
