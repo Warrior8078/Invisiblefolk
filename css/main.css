@@ -58,6 +58,13 @@ section{
   color:rgba(255,255,255,0.9);
 }
 
+.mainheader figcaption{
+  position: absolute;
+  bottom:0;
+  left:5%;
+  color:rgba(255,255,255,0.9);
+}
+
 /*------------------------
 Typography
 ------*/
