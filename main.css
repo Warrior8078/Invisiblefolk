@@ -15,14 +15,14 @@ section{
   min-height:100%;
   width:100%;
   padding-bottom:12em;
-  background: url(../img/halftone.png);
+  background: url(img/halftone.png);
 }
 
 
 .sectionheader{
   position: relative;
   min-height:100px;
-  background: url(../img/tileable_wood_texture.png) fixed;
+  background: url(img/tileable_wood_texture.png) fixed;
   background-position:center;
   border-bottom: solid 10px #fff;
 }
@@ -153,8 +153,8 @@ Navigation
 
 .collapse.in .nav li a,
 .collapsing .nav li a{
-  background:#333;
-  color:#fff;
+  background:#FFF;
+  color:#;
   border:0;
 }
 
