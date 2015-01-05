@@ -11,25 +11,6 @@ body{
   position: relative;
   padding-top:50px;
 }
-/*------------------------
-Welcome
--------*/
-#welcome {
-background:url(img/beer-taps.jpg) fixed;
-background-size:cover;
-height: 100%;
-
-}
-
-#welcome img {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  margin:auto;	
-}
-
 
 section{
   min-height:100%;
@@ -37,48 +18,6 @@ section{
   padding-bottom:12em;
   background: url(img/halftone.png);
   position:relative;
-}
-
-
-.sectionheader{
-  position: relative;
-  min-height:100px;
-  background: url(img/tileable_wood_texture.png) fixed;
-  background-position:center;
-  border-bottom: solid 10px #fff;
-}
-
-
-.mainheader{
-  position: relative;
-  width:100%;
-  height:830px;
-  background: url(http://lorempixel.com/1920/1100/people/7) fixed;
-  background-position:center;
-  border-bottom: solid 10px #fff;
-}
-
-
-.headshot {
-  margin-top:20px;
-  width:75%;
-  margin-left:12.5%;
-  margin-right:12.5%;
-  height:0;
-  padding-top:75%;
-  background: url(http://lorempixel.com/1920/1100/people/7) fixed;
-  background-position:bottom;
-  border-radius:50%;	
-}
-
-
-.serviceheader {
-  text-align:center;
-}
-@media screen and (min-width:768px){
-  .sectionheader{
-    min-height:14em;
-  }
 }
 
 .sectionheader img{
@@ -101,51 +40,38 @@ section{
 
 /*------------------------
 Typography
+------*/
 
 body{
 	font-family:'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4{
-	margin:0;
 }
 
 h1{
   font-family: 'Roboto', sans-serif;
   font-weight:100;
-  font-size:3em;
-  line-height:.8em;
-  text-align:center;
 }
 
-@media screen and (min-width:768px){
-  h1{
-    font-size:6em;
-  }
-}
 h2{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	letter-spacing: .02em;
-	text-align:center;
-	margin:1em 0 .3em;
 }
 
 h3{
-	font-family: 'roboto slab', sans-serif;
-	font-weight:600;
-	font-size: 1.2em;
-	text-align:center;
-	margin: .6em 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+  text-align:center;
 }
 
 h4{
-	font-family: 'roboto slab', sans-serif;
-	font-weight:600;
-	font-size:1.2em;
-	margin: .6em 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+  letter-spacing: .03em;
+  line-height:1.4em;
 }
-------*/
 
 /*------------------------
 Navigation
@@ -154,13 +80,10 @@ Navigation
 .top-nav{
   background-color:#FFF;
   border:none;
-  
 }
 
 .brand{
   float:left;
-  background:rgb(255,255,255);
-  border-radius: 1em 1px 1px;
 }
 
 .brand img{
@@ -170,7 +93,6 @@ Navigation
 }
 
 .navbar-right{
-  font-family:Tahoma, Geneva, sans-serif;
   font-weight:100;
   font-size:1.2em;
   letter-spacing: .04em;
@@ -219,14 +141,35 @@ Navigation
 .navbar-nav+li{display:none;}
 
 /*------------------------
+Welcome
+-------*/
+#welcome {
+background:url(img/beer-taps.jpg) fixed;
+background-size:cover;
+height: 100%;
+
+}
+
+#welcome img {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;  
+}
+
+/*------------------------
 About us
 ------*/
 
 #about{
-  padding-top:9em;
+  padding-top:2em;
 }
 
-
+.serviceheader{
+  text-align: center;
+}
 
 /*------------------------
 Portfolio
