@@ -21,7 +21,11 @@ height: 100%;
 }
 
 #welcome img {
-  padding-top: 2em;	
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;	
 }
 
 section{
@@ -145,6 +149,7 @@ Navigation
 
 .top-nav{
   background-color:#FFF;
+  border:none;
   
 }
 
@@ -157,7 +162,7 @@ Navigation
 .brand img{
   width:60px;
   margin:0;
-  padding: .4em;
+  padding: .35em;
 }
 
 .navbar-right{
@@ -173,13 +178,12 @@ Navigation
   background:#FFF;
   color:rgb(244,141,40);
   border:0;
-  padding: .4em;
 }
 
 .nav li a{
   color:rgb(244,141,40);
-  padding-top:18px;
-  padding-bottom:18px;
+  padding-top:16px;
+  padding-bottom:16px;
 }
 
 .nav li.active a,
