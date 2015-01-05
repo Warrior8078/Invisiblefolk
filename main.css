@@ -130,7 +130,6 @@ Navigation
 ------*/
 
 .top-nav{
-  padding: .4em;
   background-color:#FFF;
   
 }
@@ -138,7 +137,8 @@ Navigation
 .brand{
   float:left;
   background:rgb(255,255,255);
-  border-radius: 1em 1px 1px
+  border-radius: 1em 1px 1px;
+  padding: .4em;
 }
 
 .brand img{
