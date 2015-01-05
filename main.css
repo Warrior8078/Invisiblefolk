@@ -178,6 +178,7 @@ Portfolio
 #portfolio{
   padding:0;
   background-image:url(img/work.jpg);
+  background-size:cover;
 }
 
 #work ul{
