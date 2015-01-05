@@ -162,7 +162,7 @@ height: 100%;
 About us
 ------*/
 .main-bg {
-  background-image:url(img/beer-taps.jpg);
+  background:url(img/beer-taps.jpg) fixed;
   background-size:cover;
   height:100%;
   width:100%;
