@@ -130,7 +130,9 @@ Navigation
 ------*/
 
 .top-nav{
-  padding:1em;
+  padding: .4em;
+  background-color:#FFF;
+  
 }
 
 .brand{
@@ -159,9 +161,7 @@ Navigation
 }
 
 .nav li a{
-  color:#fff;
-  background:rgba(0,0,0,0.2);
-  border:1px solid #fff;
+  color:#F93;
   margin:0 .4em;
   padding:.6em 1em;
 }
@@ -175,8 +175,8 @@ Navigation
 
 .nav li a:hover,
 .nav li a:focus{
-  background:#fff;
-  color:#333;
+  background:#F93;
+  color:#FFF;
 }
 
 .navbar-toggle{
