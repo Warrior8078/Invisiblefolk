@@ -15,7 +15,6 @@ body{
 section{
   min-height:100%;
   width:100%;
-  padding-bottom:12em;
   background: url(img/halftone.png);
   position:relative;
 }
@@ -168,9 +167,10 @@ About us
 }
 
 .blur {
+	 background-image:url(img/beer-taps.jpg);
 	height:100%;
 	width:100%;
-	-webkit-filter.. blur(5px)
+	-webkit-filter: blur(5px);
 }
 
 .serviceheader{
