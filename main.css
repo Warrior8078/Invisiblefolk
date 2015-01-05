@@ -14,8 +14,8 @@ body{
 Welcome
 -------*/
 #welcome {
-background-image:url(img/beer-taps.jpg);
-background:fixed;
+background:url(img/beer-taps.jpg) fixed;
+background-size:cover;
 height: 100%;
 
 }
@@ -152,12 +152,12 @@ Navigation
   float:left;
   background:rgb(255,255,255);
   border-radius: 1em 1px 1px;
-  padding: .4em;
 }
 
 .brand img{
   width:60px;
   margin:0;
+  padding: .4em;
 }
 
 .navbar-right{
@@ -173,6 +173,7 @@ Navigation
   background:#FFF;
   color:rgb(244,141,40);
   border:0;
+  padding: .4em;
 }
 
 .nav li a{
