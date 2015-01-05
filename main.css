@@ -178,6 +178,8 @@ Navigation
 
 .nav li a{
   color:rgb(244,141,40);
+  padding-top:18px;
+  padding-bottom:18px;
 }
 
 .nav li.active a,
