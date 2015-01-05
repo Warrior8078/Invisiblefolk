@@ -177,6 +177,7 @@ Portfolio
 
 #work{
   padding:0;
+  background-image:url(img/work.jpg);
 }
 
 #work ul{
