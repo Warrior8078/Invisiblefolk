@@ -13,7 +13,7 @@ body{
 }
 
 section{
-  min-height:100%;
+  height:100%;
   width:100%;
   background: url(img/halftone.png);
   position:relative;
@@ -190,7 +190,7 @@ Portfolio
 
 #portfolio{
   padding:0;
-  background:url(img/work.jpg) fixed;
+  background-image:url(img/work.jpg);
   background-size:cover;
 }
 
