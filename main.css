@@ -25,7 +25,10 @@ height: 100%;
   top:0;
   left:0;
   right:0;
-  bottom:0;	
+  bottom:0;
+  height:50%;
+  width:auto;
+  margin:auto;	
 }
 
 section{
@@ -33,6 +36,7 @@ section{
   width:100%;
   padding-bottom:12em;
   background: url(img/halftone.png);
+  position:relative;
 }
 
 
