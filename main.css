@@ -147,23 +147,22 @@ Navigation
 }
 
 .navbar-right{
-  font-family: 'Roboto Slab', sans-serif;
+  font-family:Tahoma, Geneva, sans-serif;
   font-weight:100;
   font-size:1.2em;
-  letter-spacing: .04em
+  letter-spacing: .04em;
+  height:100%;
 }
 
 .collapse.in .nav li a,
 .collapsing .nav li a{
   background:#FFF;
-  color:#;
+  color:rgb(244,141,40);
   border:0;
 }
 
 .nav li a{
-  color:#F93;
-  margin:0 .4em;
-  padding:.6em 1em;
+  color:rgb(244,141,40);
 }
 
 .nav li.active a,
@@ -175,7 +174,7 @@ Navigation
 
 .nav li a:hover,
 .nav li a:focus{
-  background:#F93;
+  background:rgb(244,141,40);
   color:#FFF;
 }
 
