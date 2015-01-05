@@ -216,6 +216,8 @@ Navigation
   height:3px;
 }
 
+.navbar-nav+li{display:none;}
+
 /*------------------------
 About us
 ------*/
