@@ -10,6 +10,19 @@ html, body{
 body{
   position: relative;
 }
+/*------------------------
+Welcome
+-------*/
+#welcome {
+background-image:url(img/beer-taps.jpg);
+background:fixed;
+height: 100%;
+
+}
+
+#welcome img {
+  padding-top: 2em;	
+}
 
 section{
   min-height:100%;
@@ -80,7 +93,7 @@ section{
 
 /*------------------------
 Typography
-------*/
+
 body{
 	font-family:'Roboto', sans-serif;
 }
@@ -124,6 +137,7 @@ h4{
 	font-size:1.2em;
 	margin: .6em 0;
 }
+------*/
 
 /*------------------------
 Navigation
