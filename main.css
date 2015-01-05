@@ -161,16 +161,18 @@ height: 100%;
 /*------------------------
 About us
 ------*/
+. main-bg {
+  background-image:url(img/beer-taps.jpg);
+  background-size:cover;
+  height:100%;
+  width:100%;
+}
 
 #about{
   padding-top:2em;  
 }
 
 .blur {
-	background-image:url(img/beer-taps.jpg);
-	background-size:cover;
-	height:100%;
-	width:100%;
 	-webkit-filter: blur(5px);
 }
 
