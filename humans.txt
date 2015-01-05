@@ -10,7 +10,8 @@
 
 # THANKS
 
-    <name>
+    Why Interactive for not sueing us for the use of their awesome code that makes our team page possible.
+    http://whyinteractive.com/
 
 # TECHNOLOGY COLOPHON
 

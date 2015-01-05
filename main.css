@@ -148,9 +148,9 @@ Navigation
 Welcome
 -------*/
 #welcome {
-background:url(img/beer-taps.jpg) fixed;
-background-size:cover;
-height: 100%;
+  background:url(img/beer-taps.jpg) fixed;
+  background-size:cover;
+  height: 100%;
 
 }
 
@@ -167,10 +167,13 @@ height: 100%;
 About us
 ------*/
 .main-bg {
-  background:url(img/beer-taps.jpg) fixed;
+  background:url(img/beer-taps.jpg) fixed center center;
   background-size:cover;
   height:100%;
   width:100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 #about{
@@ -188,6 +191,26 @@ About us
 .serviceheader{
   text-align: center;
 }
+
+/*------------------------
+Team
+------*/
+#team figure{
+  height:100%;
+  overflow:hidden;
+}
+
+.split-bg{
+  background:url(img/beer-taps.jpg) fixed;
+  background-size:cover;
+  height:100%;
+  width:14%;
+  -webkit-filter:greyscale(100%);
+}
+
+
+
+
 
 /*------------------------
 Portfolio
