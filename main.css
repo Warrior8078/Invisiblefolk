@@ -215,7 +215,7 @@ Team
 .andrew{
   height:40%;
   width:20%;
-  background:url(img/tap.png) fixed no-repeat;
+  background:url(img/tap.png) no-repeat;
   background-position: 4% 37.3%;
   background-size: auto 100%;
   position:absolute;
