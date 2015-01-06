@@ -198,6 +198,7 @@ Team
 #team figure{
   height:100%;
   overflow:hidden;
+  position:relative;
 }
 
 .split-bg{
@@ -208,9 +209,24 @@ Team
   -webkit-filter:greyscale(100%);
 }
 
+#team a{
+}
 
+.andrew{
+  height:40%;
+  width:20%;
+  background:url(img/tap.png) fixed no-repeat;
+  background-position: 4% 37.3%;
+  background-size: auto 100%;
+  position:absolute;
+  top:15%;
+  left:37.3%;
+  z-index: 100;
+}
 
-
+.andrew:hover{
+  background:rgba(0,0,0,0.3);
+}
 
 /*------------------------
 Portfolio
