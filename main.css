@@ -57,6 +57,9 @@ h1, h2, h3, h4{
 h1{
   font-family: 'Roboto', sans-serif;
   font-weight:100;
+  text-align:center;
+  padding-bottom: 50px;
+  border-bottom: 2px soild #333;
 }
 
 h2{
