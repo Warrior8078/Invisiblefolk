@@ -18,11 +18,11 @@ var divWidth, divHeight;
 
 var backgroundSize = function() {
 	var windowWidth = $(window).width();
-	var windowHeight = $(window).height() - 50;
+	var windowHeight = $(window).height();
 	var windowAspect = windowWidth / windowHeight;
 	if (windowAspect > aspectRatio) {
 	    divHeight = windowWidth * picHeight / picWidth;
-	    $("#team .main-bg").css({
+	    $("#teamBack .main-bg").css({
 	        height: divHeight,
 	        width: windowWidth,
 	        "margin-left": "0",
@@ -30,7 +30,7 @@ var backgroundSize = function() {
 	    })
 	} else {
 	    divWidth = windowHeight * picWidth / picHeight;
-	    $("#team .main-bg").css({
+	    $("#teamBack .main-bg").css({
 	        height: windowHeight,
 	        width: divWidth,
 	        "margin-top": "0",
