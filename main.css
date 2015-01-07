@@ -148,7 +148,7 @@ Navigation
 Welcome
 -------*/
 #welcome {
-  background:url(img/beer-taps.jpg) fixed;
+  background:url(img/group.jpg) fixed;
   background-size:cover;
   height: 100%;
 
@@ -167,7 +167,7 @@ Welcome
 About us
 ------*/
 .main-bg {
-  background:url(img/beer-taps.jpg) fixed center center;
+  background:url(img/group.jpg) fixed center center;
   background-size:cover;
   height:100%;
   width:100%;
@@ -200,32 +200,62 @@ Team
   overflow:hidden;
   position:relative;
 }
-
+/*
 .split-bg{
-  background:url(img/beer-taps.jpg) fixed;
+  background:url(img/group.jpg) fixed;
   background-size:cover;
   height:100%;
   width:14%;
   -webkit-filter:greyscale(100%);
 }
+*/
 
-#team a{
+.hoverTrigger{
+  position:absolute;
+}
+@media screen and (min-width:768px) {
+  .profile{
+    display:none;
+    position:fixed;
+    width:20%;
+    background:#fff;
+    border-radius:1em;
+    z-index:200;
+    padding:2em;
+  }
+}
+.hoverTrigger:hover+.profile{
+  display:block;
 }
 
 .andrew{
-  height:40%;
-  width:20%;
-  background:url(img/tap.png) no-repeat;
-  background-position: 4% 37.3%;
-  background-size: auto 100%;
-  position:absolute;
-  top:15%;
-  left:37.3%;
+  height:86.5%;
+  width:23%;
+  bottom:0;
+  left:12.5%;
   z-index: 100;
 }
 
 .andrew:hover{
-  background:rgba(0,0,0,0.3);
+  background:url(img/andrew.png) no-repeat;
+  background-size: auto 100%;
+}
+
+.andrew+.profile{
+  top:20%;
+  left:30%;
+}
+.skylar+.profile{
+  top:;
+  left:;
+}
+.derek+.profile{
+  top:;
+  left:;
+}
+.chris+.profile{
+  top:;
+  left:;
 }
 
 /*------------------------

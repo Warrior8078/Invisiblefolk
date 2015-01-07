@@ -11,52 +11,34 @@ jQuery(function( $ ){
 	});
 });
 
-$(document).ready(function backgroundSize() {
-	var windowWidth = $(window).width();
-	var windowHeight = $(window).height() - 50;
-	var aspectRatio = 3861 / 2574;
-	var windowAspect = windowWidth / windowHeight;
-	var picWidth, picHeight;
-	if (windowAspect > aspectRatio) {
-	    picHeight = windowWidth * 3861 / 2574;
-	    $("#team .main-bg").css({
-	        height: picHeight,
-	        width: windowWidth,
-	        "margin-left": "0",
-	        "margin-top": -(picHeight - windowHeight) / 2
-	    })
-	} else {
-	    picWidth = windowHeight * 3861 / 2574;
-	    $("#team .main-bg").css({
-	        height: windowHeight,
-	        width: picWidth,
-	        "margin-top": "0",
-	        "margin-left": -((picWidth - windowWidth) / 2)
-	    })
-	}
-});
+var picHeight = 1662;
+var picWidth = 2500;
+var aspectRatio = picWidth / picHeight;
+var divWidth, divHeight;
 
-$(window).resize(function backgroundSize() {
+var backgroundSize = function() {
 	var windowWidth = $(window).width();
 	var windowHeight = $(window).height() - 50;
-	var aspectRatio = 3861 / 2574;
 	var windowAspect = windowWidth / windowHeight;
-	var picWidth, picHeight;
 	if (windowAspect > aspectRatio) {
-	    picHeight = windowWidth * 3861 / 2574;
+	    divHeight = windowWidth * picHeight / picWidth;
 	    $("#team .main-bg").css({
-	        height: picHeight,
+	        height: divHeight,
 	        width: windowWidth,
 	        "margin-left": "0",
-	        "margin-top": -(picHeight - windowHeight) / 2
+	        "margin-top": -(divHeight - windowHeight) / 2
 	    })
 	} else {
-	    picWidth = windowHeight * 3861 / 2574;
+	    divWidth = windowHeight * picWidth / picHeight;
 	    $("#team .main-bg").css({
 	        height: windowHeight,
-	        width: picWidth,
+	        width: divWidth,
 	        "margin-top": "0",
-	        "margin-left": -((picWidth - windowWidth) / 2)
+	        "margin-left": -((divWidth - windowWidth) / 2)
 	    })
 	}
-});
+}
+
+$(document).ready(backgroundSize);
+
+$(window).resize(backgroundSize);
