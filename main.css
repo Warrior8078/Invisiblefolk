@@ -233,10 +233,10 @@ Team
 
   .moveme{
     position: absolute;
-    top:-100%;
+    bottom:-100%;
     left:-100%;
     background:#fff;
-    border-radius:0 1em 1em 0;
+    border-radius: 1em;
     padding:2em;
     width:100%;
     height:auto !important;
@@ -247,7 +247,10 @@ Team
     width:20%;
   }
 
-  .hoverTrigger:hover+.profile .
+  .hoverTrigger:hover+.profile .moveme{
+    bottom:0;
+    left:0;
+  }
 
   .andrew{
     height:82.7%;
@@ -266,15 +269,8 @@ Team
   }
 
   .andrew+.profile{
-    top:20%;
+    top:15%;
     left:33%;
-  }
-
-  .andrew+.profile .moveme{
-  }
-
-  .andrew:hover+.profile .moveme{
-    left:0;
   }
 
   .skylar{
