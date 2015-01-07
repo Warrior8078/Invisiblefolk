@@ -299,6 +299,10 @@ Portfolio
 /*------------------------
 Contact
 ------*/
+#contact{
+  background: #fff;
+}
+
 #contact form{
   padding:10% 0 0;
 }
