@@ -188,6 +188,10 @@ About us
   background: #fff;
 }
 
+.aboutHead{
+  padding-bottom:3em;
+}
+
 .serviceheader{
   text-align: center;
 }
@@ -215,26 +219,35 @@ Team
 
   .hoverTrigger{
     position:absolute;
+    z-index:1;
   }
 
   .profile{
-    display:block;
-    opacity:0;
+    overflow:hidden;
     position:fixed;
-    width:0;
-    height:0;
+    width:20%;
+    z-index:0;
+    min-height:30%;
+    transition: all 300ms ease-in-out;
+  }
+
+  .moveme{
+    position: absolute;
+    top:-100%;
+    left:-100%;
     background:#fff;
-    border-radius:1em;
-    z-index:200;
+    border-radius:0 1em 1em 0;
     padding:2em;
-    transition:all 300ms;
+    width:100%;
+    height:auto !important;
+    transition: all 300ms ease-in-out;
   }
 
   .hoverTrigger:hover+.profile{
     width:20%;
-    opacity:1;
-    border-radius:1em;
   }
+
+  .hoverTrigger:hover+.profile .
 
   .andrew{
     height:82.7%;
@@ -242,16 +255,26 @@ Team
     bottom:0;
     left:13.8%;
     z-index: 100;
+    transition: background-image 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image:url(img/transparent.gif);
   }
 
   .andrew:hover{
-    background:url(img/andrew.png) no-repeat;
-    background-size: auto 100%;
+    background-image:url(img/andrew.png);
   }
 
   .andrew+.profile{
     top:20%;
-    left:30%;
+    left:33%;
+  }
+
+  .andrew+.profile .moveme{
+  }
+
+  .andrew:hover+.profile .moveme{
+    left:0;
   }
 
   .skylar{
