@@ -71,19 +71,26 @@ h2{
 h3{
 	font-family: 'Roboto', sans-serif;
 	font-weight:300;
-  text-align:center;
+  	text-align:center;
 }
 
 h4{
 	font-family: 'Roboto', sans-serif;
 	font-weight:300;
-  letter-spacing: .03em;
-  line-height:1.4em;
+  	letter-spacing: .03em;
+  	line-height:1.4em;
 }
 
 h5 {
-  font-family: 'roboto slab', sans-serif;
-  font-weight: 600;
+  	font-family: 'roboto slab', sans-serif;
+  	font-weight: 600;
+}
+
+p {
+	font-size:11px;
+	color:#8f8f8f;
+	line-height: 1.8em;
+	
 }
 
 /*------------------------
@@ -363,4 +370,8 @@ footer{
   padding-top:30px;
   color:#fff;
   background:#333;
+}
+
+.close strong {
+	border: 1px solid #fff;
 }
