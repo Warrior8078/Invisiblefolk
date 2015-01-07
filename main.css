@@ -191,35 +191,28 @@ About us
 /*------------------------
 Team
 ------*/
-#team{
-  z-index: -2
-}
-#teamBack{
-  position: fixed;
-  top:0;
-  left:0;
-  z-index:-1;
-}
 
-#teamBack figure{
-  height:100%;
-  overflow:hidden;
-  position:relative;
-}
-/*
-.split-bg{
-  background:url(img/group.jpg) fixed;
-  background-size:cover;
-  height:100%;
-  width:14%;
-  -webkit-filter:greyscale(100%);
-}
-*/
-
-.hoverTrigger{
-  position:absolute;
-}
 @media screen and (min-width:768px) {
+  #team{
+    z-index: -2
+  }
+  #teamBack{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+  }
+
+  #teamBack figure{
+    height:100%;
+    overflow:hidden;
+    position:relative;
+  }
+
+  .hoverTrigger{
+    position:absolute;
+  }
+
   .profile{
     display:none;
     position:fixed;
@@ -229,39 +222,68 @@ Team
     z-index:200;
     padding:2em;
   }
-}
-.hoverTrigger:hover+.profile{
-  display:block;
-}
 
-.andrew{
-  height:82.7%;
-  width:23%;
-  bottom:0;
-  left:13.8%;
-  z-index: 100;
-}
+  .hoverTrigger:hover+.profile{
+    display:block;
+  }
 
-.andrew:hover{
-  background:url(img/andrew.png) no-repeat;
-  background-size: auto 100%;
-}
+  .andrew{
+    height:82.7%;
+    width:23%;
+    bottom:0;
+    left:13.8%;
+    z-index: 100;
+  }
 
-.andrew+.profile{
-  top:20%;
-  left:30%;
-}
-.skylar+.profile{
-  top:;
-  left:;
-}
-.derek+.profile{
-  top:;
-  left:;
-}
-.chris+.profile{
-  top:;
-  left:;
+  .andrew:hover{
+    background:url(img/andrew.png) no-repeat;
+    background-size: auto 100%;
+  }
+
+  .andrew+.profile{
+    top:20%;
+    left:30%;
+  }
+
+  .skylar{
+
+  }
+
+  .skylar:hover{
+
+  }
+
+  .skylar+.profile{
+    top:;
+    left:;
+  }
+
+  .derek{
+
+  }
+
+  .derek:hover{
+
+  }
+
+  .derek+.profile{
+    top:;
+    left:;
+  }
+
+  .chris{
+
+  }
+
+  .chris:hover{
+
+  }
+
+  .chris+.profile{
+    top:;
+    left:;
+  }
+
 }
 
 /*------------------------
