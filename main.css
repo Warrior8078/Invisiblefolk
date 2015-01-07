@@ -372,6 +372,6 @@ footer{
   background:#333;
 }
 
-.close strong {
-	border: 1px solid #fff;
+.info strong {
+	border-bottom: 1px solid #fff;
 }
