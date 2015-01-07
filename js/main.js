@@ -26,7 +26,8 @@ var backgroundSize = function() {
 	        height: divHeight,
 	        width: windowWidth,
 	        "margin-left": "0",
-	        "margin-top": -(divHeight - windowHeight) / 2
+	        "margin-top": -(divHeight - windowHeight) / 2,
+	        "background-size": "100% auto"
 	    })
 	} else {
 	    divWidth = windowHeight * picWidth / picHeight;
@@ -34,7 +35,8 @@ var backgroundSize = function() {
 	        height: windowHeight,
 	        width: divWidth,
 	        "margin-top": "0",
-	        "margin-left": -((divWidth - windowWidth) / 2)
+	        "margin-left": -((divWidth - windowWidth) / 2),
+	        "background-size": "auto 100%"
 	    })
 	}
 }
