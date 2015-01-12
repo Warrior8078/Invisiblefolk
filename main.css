@@ -263,15 +263,15 @@ Team
   }
 
   .andrew{
-    height:82.7%;
-    width:23%;
-    top:17.3%;
-    left:13.8%;
-    z-index: 100;
-    transition: background-image 300ms ease-in-out;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-image:url(img/transparent.gif);
+	height:37.7%;
+	width:26%;
+	top:50%;
+	left:73.5%;
+	z-index: 100;
+	transition: background-image 300ms ease-in-out;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-image:url(img/transparent.gif);
   }
 
   .andrew:hover{
@@ -279,29 +279,45 @@ Team
   }
 
   .andrew+.profile{
-    top:15%;
-    left:33%;
+    top:18%;
+    left:75%;
   }
 
   .skylar{
-
+	height:42.7%;
+	width:27%;
+	top:47%;
+	left:55.5%;
+	z-index: 100;
+	transition: background-image 300ms ease-in-out;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-image:url(img/transparent.gif);
   }
 
   .skylar:hover{
-
+    background-image:url(img/skylar.png);
   }
 
   .skylar+.profile{
-    top:;
-    left:;
+    top:20%;
+    left:57%;
   }
 
   .derek{
-
+	height:37.4%;
+	width:24%;
+	top:51%;
+	left:24.5%;
+	z-index: 100;
+	transition: background-image 300ms ease-in-out;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-image:url(img/transparent.gif);
   }
 
   .derek:hover{
-
+    background-image:url(img/derek.png);
   }
 
   .derek+.profile{
@@ -310,11 +326,19 @@ Team
   }
 
   .chris{
-
+	height:36.2%;
+	width:24%;
+	top:51.3%;
+	left:39.4%;
+	z-index: 100;
+	transition: background-image 300ms ease-in-out;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-image:url(img/transparent.gif);
   }
 
   .chris:hover{
-
+    background-image:url(img/chris.png);
   }
 
   .chris+.profile{
@@ -322,6 +346,26 @@ Team
     left:;
   }
 
+.justin{
+	height:33.3%;
+	width:29%;
+	top:51.7%;
+	left:-.3%;
+	z-index: 100;
+	transition: background-image 300ms ease-in-out;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-image:url(img/transparent.gif);
+  }
+
+  .justin:hover{
+    background-image:url(img/justin.png);
+  }
+
+  .justin+.profile{
+    top:;
+    left:;
+  }
 }
 
 /*------------------------
