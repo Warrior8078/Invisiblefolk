@@ -263,17 +263,16 @@ Team
   }
 
   .andrew{
-	height:37.7%;
-	width:26%;
-	top:50%;
-	left:73.5%;
+	height: 41.7%;
+	width: 26%;
+	top: 48%;
+	left: 73.5%;
 	z-index: 100;
 	transition: background-image 300ms ease-in-out;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
-	background-image:url(img/transparent.gif);
+	background-image: url(img/transparent.gif);
   }
-
   .andrew:hover{
     background-image:url(img/andrew.png);
   }
@@ -284,15 +283,15 @@ Team
   }
 
   .skylar{
-	height:42.7%;
-	width:27%;
-	top:47%;
-	left:55.5%;
+	height: 47%;
+	width: 27%;
+	top: 44.8%;
+	left: 56%;
 	z-index: 100;
 	transition: background-image 300ms ease-in-out;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
-	background-image:url(img/transparent.gif);
+	background-image: url(img/transparent.gif);
   }
 
   .skylar:hover{
@@ -305,15 +304,15 @@ Team
   }
 
   .derek{
-	height:37.4%;
-	width:24%;
-	top:51%;
-	left:24.5%;
+	height: 42%;
+	width: 24%;
+	top: 48%;
+	left: 24.5%;
 	z-index: 100;
 	transition: background-image 300ms ease-in-out;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
-	background-image:url(img/transparent.gif);
+	background-image: url(img/transparent.gif);
   }
 
   .derek:hover{
@@ -326,15 +325,15 @@ Team
   }
 
   .chris{
-	height:36.2%;
-	width:24%;
-	top:51.3%;
-	left:39.4%;
+	height: 39.6%;
+	width: 24%;
+	top: 49.6%;
+	left: 39.6%;
 	z-index: 100;
 	transition: background-image 300ms ease-in-out;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
-	background-image:url(img/transparent.gif);
+	background-image: url(img/transparent.gif);
   }
 
   .chris:hover{
@@ -347,15 +346,15 @@ Team
   }
 
 .justin{
-	height:33.3%;
-	width:29%;
-	top:51.7%;
-	left:-.3%;
+	height: 37%;
+	width: 29%;
+	top: 49.7%;
+	left: -.3%;
 	z-index: 100;
 	transition: background-image 300ms ease-in-out;
 	background-repeat: no-repeat;
 	background-size: auto 100%;
-	background-image:url(img/transparent.gif);
+	background-image: url(img/transparent.gif);
   }
 
   .justin:hover{
