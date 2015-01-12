@@ -11,8 +11,8 @@ jQuery(function( $ ){
 	});
 });
 
-var picHeight = 1662;
-var picWidth = 2500;
+var picHeight = 1617;
+var picWidth = 2712;
 var aspectRatio = picWidth / picHeight;
 var divWidth, divHeight;
 
