@@ -233,6 +233,10 @@ Team
   .hoverTrigger{
     position:absolute;
     z-index:1;
+    transition: background-image 300ms ease-in-out;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image: url(img/transparent.gif);
   }
 
   .profile{
@@ -248,8 +252,7 @@ Team
     position: absolute;
     bottom:-100%;
     left:-100%;
-    background:#fff;
-    border-radius: 1em;
+    background:rgba(255,255,255,0.8);
     padding:2em;
     width:100%;
     height:auto !important;
@@ -271,10 +274,6 @@ Team
 	top: 48%;
 	left: 73.5%;
 	z-index: 100;
-	transition: background-image 300ms ease-in-out;
-	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-image: url(img/transparent.gif);
   }
   .andrew:hover{
     background-image:url(img/andrew.png);
@@ -291,10 +290,6 @@ Team
 	top: 44.8%;
 	left: 56%;
 	z-index: 100;
-	transition: background-image 300ms ease-in-out;
-	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-image: url(img/transparent.gif);
   }
 
   .skylar:hover{
@@ -312,10 +307,6 @@ Team
 	top: 48%;
 	left: 24.5%;
 	z-index: 100;
-	transition: background-image 300ms ease-in-out;
-	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-image: url(img/transparent.gif);
   }
 
   .derek:hover{
@@ -333,10 +324,6 @@ Team
 	top: 49.6%;
 	left: 39.6%;
 	z-index: 100;
-	transition: background-image 300ms ease-in-out;
-	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-image: url(img/transparent.gif);
   }
 
   .chris:hover{
@@ -354,10 +341,6 @@ Team
 	top: 49.7%;
 	left: -.3%;
 	z-index: 100;
-	transition: background-image 300ms ease-in-out;
-	background-repeat: no-repeat;
-	background-size: auto 100%;
-	background-image: url(img/transparent.gif);
   }
 
   .justin:hover{
