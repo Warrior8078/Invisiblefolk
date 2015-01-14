@@ -11,7 +11,6 @@ body{
   margin:0;
   padding:0;
   position: relative;
-  overflow: hidden;
   display:block;
 }
 
@@ -24,7 +23,8 @@ section{
 #portfolio,
 #teamBack,
 #team,
-#welcome{
+#welcome,
+.fullHeight{
   height:100%;
 }
 
@@ -169,8 +169,6 @@ Welcome
 .main-bg {
   background:url(img/bar-3.jpg) fixed center center;
   background-size:cover;
-  height:100%;
-  width:100%;
   position: relative;
   top: 0px;
   left: 0px;
@@ -289,7 +287,7 @@ Team
 	width: 24%;
 	top: 44.8%;
 	left: 56%;
-	z-index: 100;
+	z-index: 101;
   }
 
   .skylar:hover{
@@ -306,7 +304,7 @@ Team
 	width: 24%;
 	top: 48%;
 	left: 24.5%;
-	z-index: 100;
+	z-index: 102;
   }
 
   .derek:hover{
@@ -323,7 +321,7 @@ Team
 	width: 24%;
 	top: 49.6%;
 	left: 39.6%;
-	z-index: 100;
+	z-index: 103;
   }
 
   .chris:hover{
@@ -340,7 +338,7 @@ Team
 	width: 29%;
 	top: 49.7%;
 	left: -.3%;
-	z-index: 100;
+	z-index: 104;
   }
 
   .justin:hover{
