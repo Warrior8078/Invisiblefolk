@@ -1,6 +1,6 @@
 $(document).ready(function(e) {
     $.browser.safari = /safari/.test(navigator.userAgent.toLowerCase()); 
-		if( $.browser.safari )
+		if($.browser.safari)
 			{
 				<div id="safari"></div>
 			}
