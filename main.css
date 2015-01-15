@@ -422,33 +422,78 @@ Contact
 ------*/
 #contact{
   background: #fff;
+  padding-top:3em;
+}
+
+.contactHead{
+  margin-left:10%;
+}
+
+.contactHead h3{
+  color:rgb(247,141,8);
+  border-bottom-color:rgb(247,141,8);
 }
 
 #contact form{
-  padding:10% 0 0;
+  padding:3em 0 0;
 }
 
-.control-label{
-  font-weight:500;
+#contact form .form-group{
+  margin:2em 0;
+}
+
+#contact form .control-label{
+  background:rgba(247,141,8,0.2);
+  color:#fff;
+  width:100%;
+  padding:.4em;
+  border-radius: 0 0 .2em .2em;
+  transition: all 300ms;
+}
+
+.control-label h4{
+  color:#fff;
+  text-align:center;
+  margin:0 0 .2em;
 }
 
 #contact form .form-control{
   background:transparent;
+  border-radius: 0;
   border:0;
   box-shadow:none;
   transition: all 300ms;
-  background-color:rgb(244,141,40);
-  color:#fff;
+  color:#333;
+  font-size:1.6em;
+  padding:1em .8em;
 }
 
-.address {
-	margin-top:10%;
-	left:10%;
+#contact form .form-control:focus{
+  background: rgba(247,141,8,0.2);
+  border-color:transparent;
+  border-radius:.2em .2em;
+}
+
+#contact form .form-control:focus+.control-label{
+  background:rgb(247,141,8);
 }
 
 textarea {
 	height:40%;
 }
+
+#contact button{
+  width:50%;
+  border-radius:.2em;
+  background-color:rgb(247,141,8);
+  color:#fff;
+  border:none;
+}
+
+.submit-group{
+  text-align:center;
+}
+
 /*------------------------
 Footer
 ------*/
