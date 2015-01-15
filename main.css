@@ -274,7 +274,7 @@ Team
 	z-index: 100;
   }
   .andrew:hover{
-    background-image:url(img/andrew.png);
+    //background-image:url();
   }
 
   .andrew+.profile{
@@ -291,7 +291,7 @@ Team
   }
 
   .skylar:hover{
-    background-image:url(img/skylar.png);
+    //background-image:url();
   }
 
   .skylar+.profile{
@@ -308,7 +308,7 @@ Team
   }
 
   .derek:hover{
-    background-image:url(img/derek.png);
+    //background-image:url();
   }
 
   .derek+.profile{
@@ -325,7 +325,7 @@ Team
   }
 
   .chris:hover{
-    background-image:url(img/chris.png);
+    //background-image:url();
   }
 
   .chris+.profile{
@@ -342,7 +342,7 @@ Team
   }
 
   .justin:hover{
-    background-image:url(img/justin.png);
+    //background-image:url();
   }
 
   .justin+.profile{
