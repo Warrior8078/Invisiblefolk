@@ -447,9 +447,9 @@ Contact
   transition: all 300ms;
 }
 
-.control-label h4{
+.control-label h5{
   color:#333;
-  text-align:center;
+  text-align:right;
   margin:0 0 .2em;
 }
 
