@@ -46,6 +46,48 @@ section, #team{
   color:rgba(255,255,255,0.9);
 }
 
+
+
+.sectionHeader{
+  width:80%;
+  text-align:center;
+  margin-bottom:3em;
+  padding-bottom:5em;
+}
+
+.sectionHeader h3{
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  margin-bottom:.4em;
+  padding-bottom:0.3em;
+}
+
+.aboutHeader{
+  width:80%;
+  margin-left:10%;
+  text-align:center;
+  color:#fff;
+}
+
+.aboutHeader h3{
+  color:rgb(247,141,8);
+  border-bottom-color: rgb(247,141,8);
+}
+
+.teamHeader{
+  position:absolute;
+  top:10%;
+  left:10%;
+  z-index:99;
+  text-align:center;
+}
+
+.teamHeader h3{
+  color:rgba(255,255,255,0.5);
+  border-bottom-color: rgba(255,255,255,0.5);
+}
+
+
 /*------------------------
 Typography
 ------*/
@@ -75,7 +117,7 @@ h3{
 
 h4{
 	font-weight:300;
- letter-spacing: .03em;
+  letter-spacing: .03em;
 }
 
 h5 {
@@ -194,20 +236,6 @@ About us
   background: #fff;
 }
 
-.aboutHeader{
-  background-color:rgb(247,141,8);
-  border-bottom: 3px solid rgb(247,141,8);
-  margin-bottom:3em;
-  color:#fff;
-  border-radius: .4em;
-  padding:1em;
-}
-
-.aboutHeader h3{
-  color:#fff;
-  margin:0;
-}
-
 .serviceheader{
   text-align: center;
 }
@@ -235,23 +263,6 @@ Team
     z-index:-1;
   }
 
-  .teamHeader{
-    position:absolute;
-    top:10%;
-    left:10%;
-    width:80%;
-    z-index:99;
-    text-align:center;
-  }
-
-  .teamHeader h3{
-    padding-bottom:0.3em;
-    color:rgba(255,255,255,0.5);
-    border-bottom:3px solid rgba(255,255,255,0.5);
-  }
-
-
-
   #teamBack figure{
     height:100%;
     overflow:hidden;
@@ -271,7 +282,7 @@ Team
     overflow:hidden;
     position:fixed;
     width:20%;
-    z-index:0;
+    z-index:100;
     min-height:30%;
     transition: all 300ms ease-in-out;
     border-radius:.4em;
@@ -298,102 +309,102 @@ Team
     bottom:0;
   }
 
-.profile h4{
-  color:rgba(255,255,255,1);
-  margin:0 0 .2em;
-}
+  .profile h4{
+    color:rgba(255,255,255,1);
+    margin:0 0 .2em;
+  }
 
-.profile strong{
-  margin:1em;
-}
+  .profile strong{
+    margin:1em;
+  }
 
-.profile p{
-  color:rgba(255,255,255,0.9);
-}
+  .profile p{
+    color:rgba(255,255,255,0.9);
+  }
 
   .andrew{
-   height: 41.7%;
-   width: 26%;
-   top: 48%;
-   left: 73.5%;
-   z-index: 100;
- }
- .andrew:hover{
-  //background-image:url();
-}
+    height: 41.7%;
+    width: 26%;
+    top: 48%;
+    left: 73.5%;
+    z-index: 100;
+  }
+  .andrew:hover{
+    //background-image:url();
+  }
 
-.andrew+.profile{
-  top:18%;
-  left:75%;
-}
+  .andrew+.profile{
+    top:18%;
+    left:75%;
+  }
 
-.skylar{
-	height: 47%;
-	width: 24%;
-	top: 44.8%;
-	left: 56%;
-	z-index: 101;
-}
+  .skylar{
+  	height: 47%;
+  	width: 24%;
+  	top: 44.8%;
+  	left: 56%;
+  	z-index: 101;
+  }
 
-.skylar:hover{
-  //background-image:url();
-}
+  .skylar:hover{
+    //background-image:url();
+  }
 
-.skylar+.profile{
-  top:20%;
-  left:57%;
-}
+  .skylar+.profile{
+    top:20%;
+    left:57%;
+  }
 
-.derek{
-	height: 42%;
-	width: 24%;
-	top: 48%;
-	left: 24.5%;
-	z-index: 102;
-}
+  .derek{
+  	height: 42%;
+  	width: 24%;
+  	top: 48%;
+  	left: 24.5%;
+  	z-index: 102;
+  }
 
-.derek:hover{
-  //background-image:url();
-}
+  .derek:hover{
+    //background-image:url();
+  }
 
-.derek+.profile{
-  top:18%;
-  left:25%;
-}
+  .derek+.profile{
+    top:18%;
+    left:25%;
+  }
 
-.chris{
-	height: 39.6%;
-	width: 24%;
-	top: 49.6%;
-	left: 39.6%;
-	z-index: 103;
-}
+  .chris{
+  	height: 39.6%;
+  	width: 24%;
+  	top: 49.6%;
+  	left: 39.6%;
+  	z-index: 103;
+  }
 
-.chris:hover{
-  //background-image:url();
-}
+  .chris:hover{
+    //background-image:url();
+  }
 
-.chris+.profile{
-  top:18%;
-  left:40%;
-}
+  .chris+.profile{
+    top:18%;
+    left:40%;
+  }
 
-.justin{
-	height: 37%;
-	width: 29%;
-	top: 49.7%;
-	left: -.3%;
-	z-index: 104;
-}
+  .justin{
+  	height: 37%;
+  	width: 29%;
+  	top: 49.7%;
+  	left: -.3%;
+  	z-index: 104;
+  }
 
-.justin:hover{
-  //background-image:url();
-}
+  .justin:hover{
+    //background-image:url();
+  }
 
-.justin+.profile{
-  top:18%;
-  left:6%;
-}
+  .justin+.profile{
+    top:18%;
+    left:6%;
+  }
 }
 
 /*------------------------
