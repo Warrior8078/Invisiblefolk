@@ -9,12 +9,12 @@ html, body{
 
 body{
   margin:0;
-  padding:0;
+  padding-top:50px;
   position: relative;
   display:block;
 }
 
-section{
+section, #team{
   min-height:100%;
   width:100%;
   position:relative;
@@ -51,48 +51,42 @@ Typography
 ------*/
 
 body{
-	font-family:'Roboto', sans-serif;
+	font-family:'Roboto', Helvetica, sans-serif;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4{font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 h1{
-  font-family: 'Roboto', sans-serif;
   font-weight:100;
   text-align:center;
-  padding-bottom: 1.5em;
   border-bottom: 2px soild #333;
 }
 
 h2{
-	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	letter-spacing: .02em;
 }
 
 h3{
-	font-family: 'Roboto', sans-serif;
 	font-weight:300;
-  	text-align:center;
+  line-height:1.2em;
 }
 
 h4{
-	font-family: 'Roboto', sans-serif;
 	font-weight:300;
-  	letter-spacing: .03em;
-  	line-height:1.4em;
+ letter-spacing: .03em;
 }
 
 h5 {
-  	font-family: 'roboto slab', sans-serif;
-  	font-weight: 600;
+ font-family: 'roboto slab', sans-serif;
+ font-weight: 300;
+ line-height: 1.2em;
 }
 
 p {
-	font-size:11px;
 	color:#8f8f8f;
-	line-height: 1.8em;
+	line-height: 1.4em;
 	
 }
 
@@ -103,6 +97,7 @@ Navigation
 .top-nav{
   background-color:#FFF;
   border:none;
+  box-shadow: 0 2px 1em rgba(0,0,0,0.1)
 }
 
 .brand{
@@ -195,16 +190,34 @@ Welcome
 About us
 ------*/
 #about{
-  padding-top:2em;
+  padding-top:5em;
   background: #fff;
 }
 
-.aboutHead{
-  padding-bottom:3em;
+.aboutHeader{
+  background-color:rgb(247,141,8);
+  border-bottom: 3px solid rgb(247,141,8);
+  margin-bottom:3em;
+  color:#fff;
+  border-radius: .4em;
+  padding:1em;
+}
+
+.aboutHeader h3{
+  color:#fff;
+  margin:0;
 }
 
 .serviceheader{
   text-align: center;
+}
+
+.serviceheader img{
+  margin-bottom:1.4em;
+}
+
+#about dd{
+  margin:0;
 }
 
 /*------------------------
@@ -221,6 +234,23 @@ Team
     left:0px;
     z-index:-1;
   }
+
+  .teamHeader{
+    position:absolute;
+    top:10%;
+    left:10%;
+    width:80%;
+    z-index:99;
+    text-align:center;
+  }
+
+  .teamHeader h3{
+    padding-bottom:0.3em;
+    color:rgba(255,255,255,0.5);
+    border-bottom:3px solid rgba(255,255,255,0.5);
+  }
+
+
 
   #teamBack figure{
     height:100%;
@@ -244,13 +274,16 @@ Team
     z-index:0;
     min-height:30%;
     transition: all 300ms ease-in-out;
+    border-radius:.4em;
   }
 
   .moveme{
     position: absolute;
     bottom:-100%;
-    left:-100%;
-    background:rgba(255,255,255,0.8);
+    background:rgb(247,141,8);
+    color:rgba(255,255,255,0.8);
+    box-shadow: 0 3px 1em rgba(0,0,0,0.1);
+    border-radius:.4em;
     padding:2em;
     width:100%;
     height:auto !important;
@@ -263,75 +296,87 @@ Team
 
   .hoverTrigger:hover+.profile .moveme{
     bottom:0;
-    left:0;
   }
+
+.profile h4{
+  color:rgba(255,255,255,1);
+  margin:0 0 .2em;
+}
+
+.profile strong{
+  margin:1em;
+}
+
+.profile p{
+  color:rgba(255,255,255,0.9);
+}
 
   .andrew{
-	height: 41.7%;
-	width: 26%;
-	top: 48%;
-	left: 73.5%;
-	z-index: 100;
-  }
-  .andrew:hover{
-    //background-image:url();
-  }
+   height: 41.7%;
+   width: 26%;
+   top: 48%;
+   left: 73.5%;
+   z-index: 100;
+ }
+ .andrew:hover{
+  //background-image:url();
+}
 
-  .andrew+.profile{
-    top:18%;
-    left:75%;
-  }
+.andrew+.profile{
+  top:18%;
+  left:75%;
+}
 
-  .skylar{
+.skylar{
 	height: 47%;
 	width: 24%;
 	top: 44.8%;
 	left: 56%;
 	z-index: 101;
-  }
+}
 
-  .skylar:hover{
-    //background-image:url();
-  }
+.skylar:hover{
+  //background-image:url();
+}
 
-  .skylar+.profile{
-    top:20%;
-    left:57%;
-  }
+.skylar+.profile{
+  top:20%;
+  left:57%;
+}
 
-  .derek{
+.derek{
 	height: 42%;
 	width: 24%;
 	top: 48%;
 	left: 24.5%;
 	z-index: 102;
-  }
+}
 
-  .derek:hover{
-    //background-image:url();
-  }
+.derek:hover{
+  //background-image:url();
+}
 
-  .derek+.profile{
-    top:18%;
-    left:25%;
-  }
+.derek+.profile{
+  top:18%;
+  left:25%;
+}
 
-  .chris{
+.chris{
 	height: 39.6%;
 	width: 24%;
 	top: 49.6%;
 	left: 39.6%;
 	z-index: 103;
-  }
+}
 
-  .chris:hover{
-    //background-image:url();
-  }
+.chris:hover{
+  //background-image:url();
+}
 
-  .chris+.profile{
-    top:18%;
-    left:40%;
-  }
+.chris+.profile{
+  top:18%;
+  left:40%;
+}
 
 .justin{
 	height: 37%;
@@ -339,16 +384,16 @@ Team
 	top: 49.7%;
 	left: -.3%;
 	z-index: 104;
-  }
+}
 
-  .justin:hover{
-    //background-image:url();
-  }
+.justin:hover{
+  //background-image:url();
+}
 
-  .justin+.profile{
-    top:18%;
-    left:6%;
-  }
+.justin+.profile{
+  top:18%;
+  left:6%;
+}
 }
 
 /*------------------------
