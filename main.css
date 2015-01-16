@@ -301,7 +301,8 @@ Team
   .hoverTrigger:hover+.profile{
   }
 
-  .hoverTrigger:hover+.profile .moveme{
+  .hoverTrigger:hover+.profile .moveme,
+  .hoverTrigger:hover+.profile:hover .moveme{
     bottom:0;
   }
 
