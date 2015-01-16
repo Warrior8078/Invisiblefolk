@@ -419,6 +419,7 @@ Contact
 #contact{
   background: #fff;
   padding-top:3em;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }
 
 .contactHead{
@@ -518,6 +519,7 @@ footer{
   padding-top:30px;
   color:#fff;
   background:#333;
+  z-index:100;
 }
 
 .info strong {
