@@ -20,6 +20,7 @@ section, #team{
   position:relative;
 }
 
+#contact,
 #portfolio,
 #teamBack,
 #team,
@@ -212,11 +213,7 @@ Welcome
 }
 
 .blur {
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
+  background-image: url(img/barline-blur.jpg);
 }
 
 #welcome img {
@@ -282,7 +279,6 @@ Team
     overflow:hidden;
     position:fixed;
     top:25%;
-    width:20%;
     z-index:100;
     min-height:30%;
     transition: all 300ms ease-in-out;
@@ -292,8 +288,8 @@ Team
   .moveme{
     position: absolute;
     bottom:-100%;
-    background:rgb(247,141,8);
-    color:rgba(255,255,255,0.8);
+    background:rgba(0,0,0,0.75);
+    color:rgba(247,141,8,0.9);
     box-shadow: 0 3px 1em rgba(0,0,0,0.1);
     border-radius:.4em;
     padding:1em;
@@ -303,7 +299,6 @@ Team
   }
 
   .hoverTrigger:hover+.profile{
-    width:20%;
   }
 
   .hoverTrigger:hover+.profile .moveme{
@@ -335,14 +330,14 @@ Team
   }
 
   .andrew+.profile{
-    left:75%;
+    right:3%;
   }
 
   .skylar{
   	height: 47%;
-  	width: 24%;
+  	width: 17%;
   	top: 44.8%;
-  	left: 56%;
+  	left: 58%;
   	z-index: 101;
   }
 
@@ -356,9 +351,9 @@ Team
 
   .derek{
   	height: 42%;
-  	width: 24%;
+  	width: 15%;
   	top: 48%;
-  	left: 24.5%;
+  	left: 30%;
   	z-index: 102;
   }
 
@@ -372,9 +367,9 @@ Team
 
   .chris{
   	height: 39.6%;
-  	width: 24%;
+  	width: 17%;
   	top: 49.6%;
-  	left: 39.6%;
+  	left: 43%;
   	z-index: 103;
   }
 
@@ -417,18 +412,35 @@ Portfolio
 Contact
 ------*/
 #contact{
-  background: #fff;
+  background: url(img/barline.jpg) fixed center center;
+  background-size:cover;
   padding-top:3em;
-  box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+  min-height:50em;
+}
+
+.contact-bg{
+  position:absolute;
+  height:100%;
+  width:100%;
+  z-index:1;
+>>>>>>> FETCH_HEAD
 }
 
 .contactHead{
   margin-left:10%;
+  z-index:5;
+  position:relative;
 }
 
 .contactHead h3{
   color:rgb(247,141,8);
   border-bottom-color:rgb(247,141,8);
+}
+
+.contactMain{
+  z-index:6;
+  position:relative;
+  background: rgba(255,255,255,1)
 }
 
 #contact form{
@@ -519,7 +531,6 @@ footer{
   padding-top:30px;
   color:#fff;
   background:#333;
-  z-index:100;
 }
 
 .info strong {
