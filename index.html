@@ -56,9 +56,10 @@
 <section id="welcome">
     <div class="blur main-bg fullHeight"></div>
     <h1 class="sr-only">Welcome to Creative Folk's Online Portfolio Site</h1>
-    <img class="welcomeImg col-xs-10 col-sm-8 col-md-6" src="img/creative_folk_handtype.png" alt="We are Creative Folk">
+        	<div id="handLettering" data-5000="border:1px #FFF;"><img class="welcomeImg col-xs-10 col-sm-8 col-md-6" src="img/creative_folk_handtype.png" alt="We are Creative Folk">
+            </div>
 </section>
-<section id="about">
+<section id="about" data-10000>
     <div class="aboutHeader sectionHeader">
         <h1 class="sr-only">About Us</h1>
         <h3>Design solutions for businesses, organizations, and individuals</h3>
@@ -279,5 +280,23 @@
 <script type="text/javascript" src="js/vendor/skrollr.js"></script>
 
 <script src="js/main.js"></script>
+<script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="../skrollr-ie/dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
+	</script>
+
 </body>
 </html>
