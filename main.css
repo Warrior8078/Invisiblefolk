@@ -502,6 +502,7 @@ textarea {
   text-align:center;
 }
 
+/* Style the Placeholder Text */
 .form-control::-webkit-input-placeholder { /* WebKit browsers */
     color:    rgb(247,141,8);
     font-weight:300;
