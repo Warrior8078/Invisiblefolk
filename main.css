@@ -47,8 +47,6 @@ section, #team{
   color:rgba(255,255,255,0.9);
 }
 
-
-
 .sectionHeader{
   width:80%;
   text-align:center;
@@ -249,17 +247,18 @@ About us
 Team
 ------*/
 
-@media screen and (min-width:768px) {
-  #team{
-    z-index: -2
-  }
-  #teamBack{
-    position: fixed;
-    top:0px;
-    left:0px;
-    z-index:-1;
-  }
+#team{
+  z-index: -2
+}
+#teamBack{
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index:-1;
+}
 
+
+@media screen and (min-width:768px) {
   #teamBack figure{
     height:100%;
     overflow:hidden;
@@ -405,8 +404,7 @@ Portfolio
 
 #portfolio{
   padding:0;
-  background-image:url(img/work.jpg);
-  background-size:cover;
+  background:#000;
 }
 
 /*------------------------
