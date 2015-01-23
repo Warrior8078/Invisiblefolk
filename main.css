@@ -491,10 +491,17 @@ Portfolio
 }
 
 @media screen and (min-width:1024px){
+
+  #portfolio h5{
+    text-align:center;
+    position:relative;
+    bottom:0;
+    margin-bottom:10px;
+  }
+
   #portfolio .container>div{
     height:100%;
   }
-
 
   #portfolio .container>div>div>div{
     overflow:auto;
@@ -502,11 +509,18 @@ Portfolio
 
   .portfolioList{
     margin:0;
+    width:100%;
     height:95%;
   }
 
-  .portfolioList li{}
+  .portfolioList li{
+    height:auto;
+  }
 
+  .portfolioList img{
+    width:100%;
+    height:auto;
+  }
 
 }
 
