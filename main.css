@@ -47,8 +47,6 @@ section, #team{
   color:rgba(255,255,255,0.9);
 }
 
-
-
 .sectionHeader{
   width:80%;
   text-align:center;
@@ -131,6 +129,12 @@ p {
 	color:#8f8f8f;
 	line-height: 1.4em;
 	
+}
+
+.list-unstyled{
+  list-style-type:none;
+  margin-left:0;
+  padding:0;
 }
 
 /*------------------------
@@ -249,17 +253,18 @@ About us
 Team
 ------*/
 
-@media screen and (min-width:768px) {
-  #team{
-    z-index: -2
-  }
-  #teamBack{
-    position: fixed;
-    top:0px;
-    left:0px;
-    z-index:-1;
-  }
+#team{
+  z-index: -2
+}
+#teamBack{
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index:-1;
+}
 
+
+@media screen and (min-width:768px) {
   #teamBack figure{
     height:100%;
     overflow:hidden;
@@ -301,7 +306,8 @@ Team
   .hoverTrigger:hover+.profile{
   }
 
-  .hoverTrigger:hover+.profile .moveme{
+  .hoverTrigger:hover+.profile .moveme,
+  .hoverTrigger:hover+.profile:hover .moveme{
     bottom:0;
   }
 
@@ -404,8 +410,30 @@ Portfolio
 
 #portfolio{
   padding:0;
-  background-image:url(img/work.jpg);
-  background-size:cover;
+  background:#000;
+}
+
+#portfolio img{
+  max-width:100%;
+}
+
+.portHeader{
+  position:relative;
+  left:10%;
+  top:3em;
+}
+
+.portHeader h3{
+  color:rgba(255,255,255,0.5);
+}
+
+#portfolio h5{
+  color:#fff;
+  text-align:center;
+}
+
+.portfolioList{
+  overflow:scroll;
 }
 
 /*------------------------
@@ -504,6 +532,7 @@ textarea {
   text-align:center;
 }
 
+/* Style the Placeholder Text */
 .form-control::-webkit-input-placeholder { /* WebKit browsers */
     color:    rgb(247,141,8);
     font-weight:300;
