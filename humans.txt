@@ -9,6 +9,8 @@
     Derek Myers -- Designer -- derekmyers.net
 
 # THANKS
+    
+    Barley House at Akron for the use of their place to take our group photo.
 
     Why Interactive for not sueing us for the use of their awesome code that makes our team page possible.
     http://whyinteractive.com/
