@@ -206,6 +206,10 @@ Navigation
 
 .navbar-nav+li{display:none;}
 
+dl {
+  margin-bottom:2.5em;
+}
+
 /*------------------------
 Welcome
 -------*/
@@ -412,6 +416,7 @@ Portfolio
 #portfolio{
   padding:0;
   background:#000;
+  padding-bottom:4em;
 }
 
 #portfolio img{
