@@ -57,3 +57,28 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-57266603-1', 'auto');
 ga('send', 'pageview');
+
+
+//HELP ME//
+
+$(document).ready(function() {
+  var floater = false;
+  $('#click').click(function(){
+    var top = $(window).scrollTop();
+    var left = $(window).scrollLeft()
+    if(!floater){
+      $('body').css('overflow', 'hidden');
+      $(window).scroll(function(){
+        $(this).scrollTop(top).scrollLeft(left);
+      });
+    } else {
+      $('body').css('overflow', 'auto');
+      $(window).unbind('scroll');
+    }
+    
+    $('#slider').css({top: top, left : left}).animate({
+      'margin-left' : (floater ? -400 : 0)
+    }, 500);
+    floater = !floater;
+  });
+});
