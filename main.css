@@ -189,6 +189,7 @@ Navigation
 .nav li a:focus{
   background:rgb(244,141,40);
   color:#FFF;
+  transition: 300ms;
 }
 
 .navbar-toggle{
