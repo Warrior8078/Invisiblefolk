@@ -57,3 +57,36 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-57266603-1', 'auto');
 ga('send', 'pageview');
+
+
+$(document).ready(function () {        
+    $('.portfolioList').mousedown(function (event) {
+        $(this)
+            .data('down', true)
+            .data('x', event.clientX)
+            .data('scrollLeft', this.scrollLeft);
+            
+        return false;
+    }).mouseup(function (event) {
+        $(this).data('down', false);
+    }).mousemove(function (event) {
+        if ($(this).data('down') == true) {
+            this.scrollLeft = $(this).data('scrollLeft') + $(this).data('x') - event.clientX;
+        }
+    }).mousewheel(function (event, delta) {
+        this.scrollLeft -= (delta * 30);
+    }).css({
+        'overflow' : 'hidden',
+        'cursor' : '-moz-grab'
+    });
+});
+
+$(window).mouseout(function (event) {
+    if ($('.portfolioList').data('down')) {
+        try {
+            if (event.originalTarget.nodeName == 'BODY' || event.originalTarget.nodeName == 'HTML') {
+                $('.portfolioList').data('down', false);
+            }                
+        } catch (e) {}
+    }
+});

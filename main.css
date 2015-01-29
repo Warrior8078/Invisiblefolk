@@ -446,8 +446,7 @@ Portfolio
 }
 
 #portfolio .container{
-  height:85%;
-  padding-bottom:15px;
+  height:80%;
 }
 
 #portfolio .container>div{
@@ -495,7 +494,7 @@ Portfolio
   height:3em;
   background:rgba(0,0,0,0.7);
 }
-
+/*
 @media screen and (min-width:1024px){
 
   #portfolio h5{
@@ -529,7 +528,7 @@ Portfolio
   }
 
 }
-
+*/
 /*------------------------
 Contact
 ------*/
